@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Import Excel file</title>
+</head>
+<body>
+<h2>Import Excel table</h2>
+<form enctype="multipart/form-data" method="post"
+action="import">
+    {{ form.as_p }}
+    <input type="submit" value="Submit"/>
+    <button type="button"
+            onClick='window.location="/exc2shp-converter;,'>
+        Cancel
+    </button>
+
+</form>
+
+</body>
+</html>
